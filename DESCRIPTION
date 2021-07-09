@@ -1,0 +1,16 @@
+Package: rgenie
+Version: 0.99.0
+Date: 2020-01-25
+Title: Rgenie refgenie wrapper
+Authors@R:
+    person("Nathan", "C", "Sheffield", email="nathan@code.databio.org",
+        role=c("aut", "cre"))
+License: GPL-3
+Description: R wrapper of the refgenie package
+Imports:
+    basilisk,
+    reticulate
+Suggests:
+    testthat
+RoxygenNote: 7.1.0
+StagedInstall: no
